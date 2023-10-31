@@ -10,7 +10,7 @@ DFRMainWindow::DFRMainWindow( wxWindow* parent )
 MainFrame( parent )
 {
 	DBGOUT("DFRMainWindow init....");
-	SetIcon(wxICON(app_title_icon));
+	SetIcon(wxICON(title_icon));
 	work_dir_picker->GetTextCtrl()->SetEditable(false);
 	output_dir_picker->GetTextCtrl()->SetEditable(false);
 	backup_dir_picker->GetTextCtrl()->SetEditable(false);

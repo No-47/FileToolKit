@@ -1,0 +1,26 @@
+# VS工程文件
+.vs
+*.bak
+*.txt
+*.d
+*.ap_
+*.ap_d
+.workspace
+
+# build目录
+Debug
+Release
+x64/Debug
+x64/Release
+
+# build临时文件
+*.boj
+*.dll
+*.exe
+*.lib
+*.tlog
+*.a
+*.pdb
+*.map
+*.recipe
+*.class

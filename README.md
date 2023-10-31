@@ -16,8 +16,8 @@
 - [wxWidget](https://www.wxwidgets.org/) v3.2.2.1  
 - [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder) 用于打开.fbp文件  
   
-vs需要依赖几个宏。这些宏用于指定第三方库和头文件的路径：
-- WX_WIDGETS_INCLUDE  wxWidget头文件的包含路径。它应该包含两个具体的目录，例如：  
+vs需要依赖几个环境变量。这些宏用于指定第三方库和头文件的路径：
+- WX_WIDGETS_INCLUDE --> wxWidget头文件的包含路径。它应该包含两个具体的目录，例如：  
 C:\wxWidgets-3.2.2.1\include  
 C:\wxWidgets-3.2.2.1\include\msvc  
   
